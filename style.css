@@ -4,13 +4,13 @@ body {
 .google-logo{
     position: relative;
 }
-ul1 {
+.list-1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-ul2{
+.list-2 {
   list-style-type: none;
   margin: 0;
-  padding: o;
+  padding: 0;
 }
