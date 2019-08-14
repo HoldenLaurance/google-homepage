@@ -1,16 +1,49 @@
 body {
   background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sens-serif;
+  font-size: 13px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 .google-logo{
     position: relative;
 }
-.list-1 {
-  list-style-type: none;
+.search-form
+{
   margin: 0;
-  padding: 0;
+  position: relative;
+  padding-top: 6px;
+  padding-left: 12px;
 }
-.list-2 {
-  list-style-type: none;
+.top-left{
   margin: 0;
   padding: 0;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.top-right {
+  margin: 0;
+  padding: 0;
+  float: right;
+  text-align: center;
+  position: relative;
+}
+.bottom-left{
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.bottom-right{
+  float: right;
+  text-align: center;
+  position: relative;
+
 }
