@@ -56,6 +56,7 @@ footer {
 {
   text-align: center;
   margin-top: 0px;
+  border: solid 5px rgb(170,170,170);
 }
 .search-form input{
   border-radius: 25px;
@@ -71,7 +72,6 @@ footer {
   text-align: center;
   position: relative;
   overflow: hidden;
-  width: 100%;
 }
 .top-right {
   margin: 0px;
@@ -79,7 +79,6 @@ footer {
   float: right;
   text-align: center;
   position: relative;
-  width: 100%;
 }
 .bottom-left{
   padding: 10px;
