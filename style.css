@@ -13,10 +13,11 @@ a:hover{
   text-decoration: underline;
 }
 header {
-    top: 0;
-    font-family: "Arial", sans-serif;
-    font-size: 13px;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  width: 100%;
 }
 footer {
     bottom: 0;
@@ -35,48 +36,55 @@ footer {
     color: #5F6368;
 }
 .buttons{
-  position: relative;
   padding: 10px;
   font-size: 13px;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  margin-bottom: 300px;
+  margin: 10px;
   }
 .buttons:hover{
   background-color: rgba(200,200,200, .5)
-  border: solid 1px rgb(170,170,170)
+  border: solid 2px rgb(170,170,170)
 }
 .google-logo{
-    position: relative;
+    display: block;
+    text-align: center;
+    margin: 120px 0px 18px 0px;
 }
-.search-form
+.search-bar
 {
   margin: 0;
-  position: relative;
   padding-top: 6px;
   padding-left: 12px;
+  height: 45px;
 }
 .top-left{
   margin: 0;
-  padding: 0;
+  padding: 10px;
   float: left;
   text-align: center;
   position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 .top-right {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   float: right;
   text-align: center;
   position: relative;
 }
 .bottom-left{
+  padding: 10px;
+  margin: 0;
   float: left;
   text-align: center;
   position: relative;
 }
 .bottom-right{
+  padding: 10px;
+  margin: 0;
   float: right;
   text-align: center;
   position: relative;
