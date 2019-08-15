@@ -47,10 +47,12 @@ footer {
   background-color: rgba(200,200,200, .5)
   border: solid 2px rgb(170,170,170)
 }
-.google-logo{
+.content{
     display: block;
     text-align: center;
-    margin: 120px 0px 18px 0px;
+    margin: 109px 0px 18px 0px;
+    width: 272px;
+    height: 92px;
 }
 .search-bar
 {
@@ -60,7 +62,7 @@ footer {
   height: 45px;
 }
 .top-left{
-  margin: 0;
+  margin: 5px;
   padding: 10px;
   float: left;
   text-align: center;
@@ -69,22 +71,23 @@ footer {
   width: 100%;
 }
 .top-right {
-  margin: 0;
+  margin: 5px;
   padding: 10px;
   float: right;
   text-align: center;
   position: relative;
+  width: 100%;
 }
 .bottom-left{
   padding: 10px;
-  margin: 0;
+  margin: 5px;
   float: left;
   text-align: center;
   position: relative;
 }
 .bottom-right{
   padding: 10px;
-  margin: 0;
+  margin: 5px;
   float: right;
   text-align: center;
   position: relative;
