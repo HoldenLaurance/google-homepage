@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: arial, sens-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 a{
   color: black;
@@ -16,7 +16,7 @@ header {
   position: fixed;
   top: 0;
   font-family: "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   width: 100%;
 }
 footer {
@@ -37,7 +37,7 @@ footer {
 }
 .buttons{
   padding: 10px;
-  font-size: 13px;
+  font-size: 12px;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -47,22 +47,25 @@ footer {
   background-color: rgba(200,200,200, .5)
   border: solid 2px rgb(170,170,170)
 }
-.content{
+.google-logo{
     display: block;
     text-align: center;
     margin: 109px 0px 18px 0px;
-    width: 272px;
-    height: 92px;
 }
-.search-bar
+.search-form
 {
-  margin: 0;
-  padding-top: 6px;
-  padding-left: 12px;
-  height: 45px;
+  text-align: center;
+  margin-top: 0px;
+}
+.search-form input{
+  border-radius: 25px;
+  line-height: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+  height: 46px;
 }
 .top-left{
-  margin: 5px;
+  margin: 0px;
   padding: 10px;
   float: left;
   text-align: center;
@@ -71,7 +74,7 @@ footer {
   width: 100%;
 }
 .top-right {
-  margin: 5px;
+  margin: 0px;
   padding: 10px;
   float: right;
   text-align: center;
@@ -80,14 +83,14 @@ footer {
 }
 .bottom-left{
   padding: 10px;
-  margin: 5px;
+  margin: 0px;
   float: left;
   text-align: center;
   position: relative;
 }
 .bottom-right{
   padding: 10px;
-  margin: 5px;
+  margin: 0px;
   float: right;
   text-align: center;
   position: relative;
